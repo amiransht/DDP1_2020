@@ -1,12 +1,9 @@
 nama = input("tactical doll name: ")
-firepower = input('firepower: ')
-firepower = int(firepower)
-rate_of_fire = input('rate of fire: ')
-rate_of_fire = int(rate_of_fire)
-accuracy = input('accuracy: ')
-accuracy = int(accuracy)
-evasion = input('evasion: ')
-evasion = int(evasion)
+firepower = int(input('firepower: '))
+rate_of_fire = int(input('rate of fire: '))
+accuracy = int(input('accuracy: '))
+evasion = int(input('evasion: '))
+
 
 
 damage_per_second = firepower * rate_of_fire / 60
@@ -24,24 +21,18 @@ ce()
 CHALLENGE
 """
 name = input("\ntactical doll name: ")
-firepower = input('firepower: ')
-firepower = int(firepower)
-rate_of_fire = input('rate of fire: ')
-rate_of_fire = int(rate_of_fire)
-accuracy = input('accuracy: ')
-accuracy = int(accuracy)
-evasion = input('evasion: ')
-evasion = int(evasion)
+firepower = int(input('firepower: '))
+rate_of_fire = int(input('rate of fire: '))
+accuracy = int(input('accuracy: '))
+evasion = int(input('evasion: '))
+
 
 name2 = input("\ntactical doll opponent: ")
-firepower2 = input('opponent firepower: ')
-firepower2 = int(firepower2)
-rate_of_fire2 = input('opponent rate of fire: ')
-rate_of_fire2 = int(rate_of_fire2)
-accuracy2 = input('opponent accuracy: ')
-accuracy2 = int(accuracy2)
-evasion2 = input('opponent evasion: ')
-evasion2 = int(evasion2)
+firepower2 = int(input('opponent firepower: '))
+rate_of_fire2 = int(input('opponent rate of fire: '))
+accuracy2 = int(input('opponent accuracy: '))
+evasion2 = int(input('opponent evasion: '))
+
 
 damage_per_second = firepower * rate_of_fire / 60
 combat_effectiveness = 30 * firepower + 40 * (rate_of_fire**2/120) + 15 * (accuracy + evasion)
