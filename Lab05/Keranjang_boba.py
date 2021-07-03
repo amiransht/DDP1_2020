@@ -61,5 +61,21 @@ for i in range(jumlah_operasi):
         print("Total kapasitas keranjang Dek Depe adalah", total_kapasitas(list))
         pass
     
+            
+#CHALLENGE
+def tingkat_kesulitan(input):
+    selisih = []
+    for i in input:
+        selisih.append(abs(int(i) - int(input[0])))
+    selisih.pop(0)
+    index = selisih.index(min(selisih))
+    return index + 2
+    
+input = input("\nMasukkan tingkat kesulitan soal: ")
+input = input.split()
+
+print("Versi soal paling mirip adalah soal ke:", tingkat_kesulitan(input))
+        
+    
     
         
